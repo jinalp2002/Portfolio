@@ -4,12 +4,12 @@ const Projects = () => {
     return (
         <div id="Projects" className="mt-7">
             <div className="bg-white dark:bg-[#14141a] rounded-xl shadow-lg p-5 ">
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1 ">
                     <div className=" w-6 h-[2px] bg-slate-400"></div>
                     <p className="dark:text-yellow-300 text-[#098acc] underline">Projects</p>
 
                 </div>
-                <div className="grid sm:grid-cols-2 justify-center items-center">
+                <div className="grid sm:grid-cols-2 justify-center items-center gap-6 ml-5">
 
                     {/* Project 1 */}
                     <div className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-72">
