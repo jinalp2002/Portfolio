@@ -50,7 +50,7 @@ const Projects = () => {
                     </div>
 
                     {/* Project 2 */}
-                    <div className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-72">
+                    <div className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-72">
 
                         <h2 className="text-xl font-bold  dark:text-white text-yellow-200">
                             Country
