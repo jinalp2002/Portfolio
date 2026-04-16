@@ -9,7 +9,7 @@ const Projects = () => {
                     <p className="dark:text-yellow-300 text-[#098acc] underline">Projects</p>
 
                 </div>
-                <div className="grid sm:grid-cols-2">
+                <div className="grid sm:grid-cols-2 justify-center items-center">
 
                     {/* Project 1 */}
                     <div className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-72">
