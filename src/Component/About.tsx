@@ -44,7 +44,7 @@ const About = () => {
                 </p>
             </div>
             <div className="flex justify-center gap-6 mt-5 ml-7 ">
-                <a href={cv} className="flex bg-[#01a8ae] rounded-full w-36 pl-2 text-xs pt-1 text-white cursor-pointer dark:bg-[#0487d9]  justify-center">Download CV
+                <a href={cv} className="flex bg-[#01a8ae] rounded-full w-36  md:w-44 pl-2 text-xs md:text-2xl pt-1 text-white cursor-pointer dark:bg-[#0487d9]  justify-center">Download CV
                     <img src={assets.arrow_icon} alt="" className="h-5 w-5 ml-2" />
                 </a>
 

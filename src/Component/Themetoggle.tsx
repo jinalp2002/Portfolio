@@ -28,13 +28,13 @@ const Themetoggle = ({ theme, setTheme }: props) => {
                     <img
                         onClick={() => setTheme("light")}
                         src={assets.sun_icon}
-                        className='size-5 p-1.5 border border-gray-500 rounded-full'
+                        className='size-6 md:size-9 p-1.5 border border-gray-500 rounded-full'
                         alt="" />
                 ) : (
                     <img
                         onClick={() => setTheme("dark")}
                         src={assets.moon_icon}
-                        className='size-5 p-1.5 border border-gray-500 rounded-full'
+                        className='size-6 md:size-9 p-1.5 border border-gray-500 rounded-full'
                         alt="" />
                 )}
             </button>

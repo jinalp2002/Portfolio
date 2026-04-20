@@ -12,9 +12,8 @@ const MySkills = () => {
                 <div className="grid gap-6 
                 grid-cols-1
                 sm:grid-cols-2
-                md:grid-cols-3
-                lg:grid-cols-4
-                xl:grid-cols-5">
+                xl:grid-cols-3
+                ">
 
                     {/* Card 1*/}
                     <div className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6 hover:scale-105 transition bg-gradient-to-r from-blue-500 to-cyan-400 dark:bg-gradient-to-r dark:from-[#3a398d] dark:to-[#0d171d]">
