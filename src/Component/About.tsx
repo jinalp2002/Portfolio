@@ -1,5 +1,5 @@
 import assets from "../assets/assets"
-import cv from "../../public/Jinal_Resume.pdf"
+import cv from "../../public/JINAL_PATEL_RESUME.pdf"
 import { motion } from "framer-motion";
 
 
