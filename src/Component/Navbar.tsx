@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import Themetoggle from "./Themetoggle";
+import { useState } from 'react';
 
 type Theme = "light" | "dark"
 
@@ -11,8 +12,10 @@ type props = {
 const Navbar = ({ theme, setTheme }: props) => {
 
 
+
+
     return (
-        <div className="sticky top-0 z-20 h-9 md:h-28 bg-primary dark:bg-[#052f4a]  dark:text-white text-black flex items-center justify-between px-4">
+        <div className="sticky top-0 z-20 h-9 md:h-28 bg-primary dark:bg-[#052f4a]  dark:text-white text-black flex items-center justify-between px-4 font-serif">
 
 
             <div className="flex gap-4 text-xs sm:text-2xl md:text-3xl justify-between items-between pt-2 ml-auto">

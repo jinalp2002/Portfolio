@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
+import type { Variants } from "framer-motion";
 
 const Footer = () => {
-    const container = {
+    const container: Variants = {
         hidden: { opacity: 0, y: 40 },
         show: {
             opacity: 1,
@@ -24,9 +25,9 @@ const Footer = () => {
             initial="hidden"
             whileInView="show"
 
+            variants={container}
 
-
-            viewport={{ once: true }}   // important 🔥
+            viewport={{ once: true }}   // important 
             className="bg-primary text-gray-700 dark:text-gray-300 dark:bg-[#052f4a] font-serif"
         >
 
@@ -34,7 +35,7 @@ const Footer = () => {
 
                 {/* Brand */}
                 <motion.div variants={item}>
-                    <h2 className="text-sm font-bold text-[#bfa14a] underline">
+                    <h2 className="text-sm font-bold text-black dark:text-[#bfa14a] underline">
                         My Portfolio
                     </h2>
                     <p className="text-sm mt-2">
