@@ -67,7 +67,7 @@ function Contact() {
                     <textarea name="message" required rows={8} placeholder="Enter your message" className="w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600"></textarea>
                 </div>
 
-                <button type="submit" className="w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103 transition-all">Submit
+                <button type="submit" className="w-max flex gap-2 bg-[#01a8ae] text-white dark:bg-[#0487d9] text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103 transition-all hover:bg-yellow-600">Submit
                     <img src={assets.arrow_icon} alt="" className="w-4" />
                 </button>
             </form>

@@ -1,4 +1,4 @@
-
+import { motion } from 'framer-motion'
 import Themetoggle from "./Themetoggle";
 
 type Theme = "light" | "dark"
@@ -24,7 +24,11 @@ const Navbar = ({ theme, setTheme }: props) => {
             </div>
             <div className="flex  ml-2 sm:ml-auto">
                 <Themetoggle theme={theme} setTheme={setTheme} />
-                <a href="#Contact" className="text-xs md:text-xl items-center ml-3 sm:ml-6 h-6 md:h-14  w-24 md:w-36 dark:bg-[#0487d9] bg-[#01a8ae] rounded-full mt-2 flex justify-center">Connect me</a>
+                <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    transition={{ duration: 0.2 }}
+                    href="#Contact" className="text-xs md:text-xl items-center ml-3 sm:ml-6 h-6 md:h-14  w-24 md:w-36 dark:bg-[#0487d9] bg-[#01a8ae] rounded-full mt-2 flex justify-center">Connect me</motion.a>
             </div>
 
         </div>

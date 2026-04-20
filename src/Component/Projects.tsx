@@ -1,6 +1,21 @@
-
+import { motion } from 'framer-motion'
 
 const Projects = () => {
+
+    const container = {
+        hidden: {},
+        show: {
+            transition: {
+                staggerChildren: 0.3   // delay between items
+            }
+        }
+    };
+
+    const item = {
+        hidden: { opacity: 0, y: 40 },
+        show: { opacity: 1, y: 0 }
+    };
+
     return (
         <div id="Projects" className="mt-7">
             <div className="bg-white dark:bg-[#14141a] rounded-xl shadow-lg p-5 ">
@@ -9,10 +24,17 @@ const Projects = () => {
                     <p className="dark:text-yellow-300 text-[#098acc] underline text-lg  md:text-2xl">Projects</p>
 
                 </div>
-                <div className="flex gap-5  mt-7 ">
+                <motion.div
+                    variants={container}
+                    initial="hidden"
+                    whileInView="show"
+                    className="flex gap-5  mt-7 ">
 
                     {/* Project 1 */}
-                    <div className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-96 ">
+                    <motion.div
+                        transition={{ duration: 0.9, ease: "easeOut" }}
+                        variants={item}
+                        className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-96 ">
 
                         <h2 className="text-xl font-bold  dark:text-white text-yellow-200">
                             Jewellery
@@ -47,10 +69,14 @@ const Projects = () => {
                                 Code
                             </a> */}
                         </div>
-                    </div>
+                    </motion.div>
 
                     {/* Project 2 */}
-                    <div className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-96 p-6">
+                    <motion.div
+
+                        transition={{ duration: 0.9, ease: "easeOut" }}
+                        variants={item}
+                        className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-96 p-6">
 
                         <h2 className="text-xl font-bold  dark:text-white text-yellow-200">
                             Country
@@ -81,8 +107,8 @@ const Projects = () => {
                                 Code
                             </a> */}
                         </div>
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
             </div>
         </div>
     )
