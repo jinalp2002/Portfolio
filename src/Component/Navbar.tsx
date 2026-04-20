@@ -12,7 +12,7 @@ const Navbar = ({ theme, setTheme }: props) => {
 
 
     return (
-        <div className="sticky top-0 z-20 h-9 md:h-24 bg-primary dark:bg-[#052f4a]  dark:text-white text-black flex items-center justify-between px-4">
+        <div className="sticky top-0 z-20 h-9 md:h-28 bg-primary dark:bg-[#052f4a]  dark:text-white text-black flex items-center justify-between px-4">
 
 
             <div className="flex gap-4 text-xs sm:text-2xl md:text-3xl justify-between items-between pt-2 ml-auto">
@@ -24,7 +24,7 @@ const Navbar = ({ theme, setTheme }: props) => {
             </div>
             <div className="flex  ml-2 sm:ml-auto">
                 <Themetoggle theme={theme} setTheme={setTheme} />
-                <a href="#Contact" className="text-xs items-center ml-3 sm:ml-6 h-6 md:h-9 w-24 dark:bg-[#0487d9] bg-[#01a8ae] rounded-full mt-2 flex justify-center">Connect me</a>
+                <a href="#Contact" className="text-xs items-center ml-3 sm:ml-6 h-6 md:h-14  w-24 md:w-36 dark:bg-[#0487d9] bg-[#01a8ae] rounded-full mt-2 flex justify-center">Connect me</a>
             </div>
 
         </div>
