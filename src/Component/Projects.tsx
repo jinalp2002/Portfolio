@@ -62,7 +62,7 @@ const Projects = () => {
                         </div>
 
                         <div className="flex gap-3 mt-4">
-                            <a href="https://jewellery.jpatel111102.workers.dev/" className="px-4 py-2 bg-[#bfa14a] text-black rounded-lg text-sm">
+                            <a href="https://jewellery.jinalpatel.workers.dev/" className="px-4 py-2 bg-[#bfa14a] text-black rounded-lg text-sm">
                                 View Priject
                             </a>
                             {/* <a href="https://github.com/jinalp2002/Jewellery" className="px-4 py-2 border bg-[#bfa14a] border-gray-400 dark:border-gray-600 rounded-lg text-sm">
