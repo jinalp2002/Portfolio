@@ -7,9 +7,9 @@ const About = () => {
         <div id="About" className="mt-6 dark:text-slate-200 pl-2 font-serif">
             <div className="flex items-center gap-1">
                 <div className=" w-6 h-[2px] bg-slate-400"></div>
-                <p className="dark:text-yellow-300 text-[#098acc] underline">About me</p>
+                <p className="dark:text-yellow-300 text-[#098acc] underline text-lg  md:text-2xl">About me</p>
             </div>
-            <div className="space-y-4 mt-5">
+            <div className="space-y-4 mt-5 text-sm md:text-xl">
                 <p>
                     Hello! I’m a front-end developer eager to bring designs to life using HTML, CSS, JavaScript, and modern frameworks like React.
                 </p>
@@ -44,8 +44,8 @@ const About = () => {
                 </p>
             </div>
             <div className="flex justify-center gap-6 mt-5 ml-7 ">
-                <a href={cv} className="flex bg-[#01a8ae] rounded-full w-36  md:w-44 pl-2 text-xs md:text-2xl pt-1 text-white cursor-pointer dark:bg-[#0487d9]  justify-center">Download CV
-                    <img src={assets.arrow_icon} alt="" className="h-5 w-5 ml-2" />
+                <a href={cv} className="flex bg-[#01a8ae] rounded-full w-36  md:w-52 pl-2 text-xs md:text-2xl pt-1 text-white cursor-pointer dark:bg-[#0487d9]  justify-center">Download CV
+                    <img src={assets.arrow_icon} alt="" className="h-5 md:h-7 w-5 md:w-7 ml-2" />
                 </a>
 
             </div>

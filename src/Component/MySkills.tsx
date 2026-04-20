@@ -3,9 +3,9 @@
 const MySkills = () => {
     return (
         <div>
-            <div className="flex items-center gap-1 mt-7">
+            <div className="flex items-center gap-1 mt-7 font-serif">
                 <div className=" w-6 h-[2px] bg-slate-400"></div>
-                <p className="dark:text-yellow-300 text-[#098acc] underline">My Skills</p>
+                <p className="dark:text-yellow-300 text-[#098acc] underline text-lg  md:text-2xl">My Skills</p>
             </div>
             <div id="Skills" className=" min-h-screen dark:bg-black mt-7 ">
 

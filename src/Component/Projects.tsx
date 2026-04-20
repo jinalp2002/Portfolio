@@ -6,7 +6,7 @@ const Projects = () => {
             <div className="bg-white dark:bg-[#14141a] rounded-xl shadow-lg p-5 ">
                 <div className="flex items-center gap-1 ">
                     <div className=" w-6 h-[2px] bg-slate-400"></div>
-                    <p className="dark:text-yellow-300 text-[#098acc] underline">Projects</p>
+                    <p className="dark:text-yellow-300 text-[#098acc] underline text-lg  md:text-2xl">Projects</p>
 
                 </div>
                 <div className="flex gap-5  mt-7 ">

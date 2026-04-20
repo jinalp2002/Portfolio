@@ -24,7 +24,7 @@ const Navbar = ({ theme, setTheme }: props) => {
             </div>
             <div className="flex  ml-2 sm:ml-auto">
                 <Themetoggle theme={theme} setTheme={setTheme} />
-                <a href="#Contact" className="text-xs items-center ml-3 sm:ml-6 h-6 md:h-14  w-24 md:w-36 dark:bg-[#0487d9] bg-[#01a8ae] rounded-full mt-2 flex justify-center">Connect me</a>
+                <a href="#Contact" className="text-xs md:text-xl items-center ml-3 sm:ml-6 h-6 md:h-14  w-24 md:w-36 dark:bg-[#0487d9] bg-[#01a8ae] rounded-full mt-2 flex justify-center">Connect me</a>
             </div>
 
         </div>
