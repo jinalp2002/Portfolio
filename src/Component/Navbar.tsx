@@ -15,7 +15,7 @@ const Navbar = ({ theme, setTheme }: props) => {
         <div className="sticky top-0 z-20 h-12 bg-primary dark:bg-[#052f4a]  dark:text-white text-black flex items-center justify-between px-4">
 
 
-            <div className="flex gap-4 text-xs justify-between items-between pt-2 ml-auto">
+            <div className="flex gap-4 text-xs sm:text-2xl md:text-3xl justify-between items-between pt-2 ml-auto">
                 <a href="#" className="hover:underline cursor-pointer">Home</a>
                 <a href="#About" className="hover:underline cursor-pointer">About</a>
                 <a href="#Skills" className="hover:underline cursor-pointer">Skills</a>
