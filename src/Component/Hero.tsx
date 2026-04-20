@@ -32,14 +32,14 @@ const Hero = () => {
                 <motion.a
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
-                    href="#Projects" className="flex bg-[#01a8ae] rounded-full w-36 md:w-52 pl-2 text-xs md:text-xl pt-1 md:pt-3 text-white cursor-pointer dark:bg-[#0487d9] ml-2 md:h-20 ">View my Projects
+                    href="#Projects" className="flex bg-[#01a8ae] rounded-full w-36 md:w-52 pl-2 text-xs md:text-xl pt-1 md:pt-6 text-white cursor-pointer dark:bg-[#0487d9] ml-2 md:h-20 ">View my Projects
                     <img src={assets.arrow_icon} alt="" className="h-5 md:h-8 w-5 md:w-8 ml-2" />
                 </motion.a>
                 <motion.a
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     transition={{ duration: 0.2 }}
-                    href="#About" className="bg-[#01a8ae] rounded-full w-20 md:w-36 pl-2 text-xs md:text-xl pt-1 md:pt-3 text-white cursor-pointer dark:bg-[#0487d9]">About me</motion.a>
+                    href="#About" className="bg-[#01a8ae] rounded-full w-20 md:w-36 pl-2 text-xs md:text-xl pt-1 md:pt-6 text-white cursor-pointer dark:bg-[#0487d9]">About me</motion.a>
             </div>
 
             <div className="w-full h-[1px] bg-slate-400 mt-7"></div>
