@@ -100,7 +100,7 @@ const Projects = () => {
                         </div>
 
                         <div className="flex gap-3 mt-4">
-                            <a href="https://cool-puppy-8a40db.netlify.app/" className="px-4 py-2 bg-[#bfa14a] text-black rounded-lg text-sm">
+                            <a href="https://country.jinalpatel.workers.dev/" className="px-4 py-2 bg-[#bfa14a] text-black rounded-lg text-sm">
                                 View Project
                             </a>
                             {/* <a href="https://github.com/jinalp2002/Country" className="px-4 py-2 border bg-[#bfa14a] border-gray-400 dark:border-gray-600 rounded-lg text-sm">
