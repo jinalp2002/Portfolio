@@ -28,7 +28,7 @@ const Projects = () => {
                     variants={container}
                     initial="hidden"
                     whileInView="show"
-                    className="flex gap-5  mt-7 ">
+                    className="md:flex gap-5  mt-7 ">
 
                     {/* Project 1 */}
                     <motion.div
