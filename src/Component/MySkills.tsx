@@ -21,7 +21,7 @@ const MySkills = () => {
                     {/* Card 1*/}
                     <motion.div initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.5 }} className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6 hover:scale-105 transition bg-gradient-to-r from-blue-500 to-cyan-400 dark:bg-gradient-to-r dark:from-[#3a398d] dark:to-[#0d171d]">
+                        transition={{ duration: 0.5 }} className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6 hover:scale-105 transition bg-gradient-to-r from-blue-500 to-cyan-400 dark:bg-gradient-to-r dark:from-[#3a398d] dark:to-[#0d171d] w-full max-w-sm">
                         <h2 className="dark:text-white text-xl font-semibold">HTML</h2>
                         <p className="dark:text-slate-400 text-sm mt-2">
                             Semantic markup, accessibility, SEO-friendly structure

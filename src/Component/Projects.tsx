@@ -34,7 +34,7 @@ const Projects = () => {
                     <motion.div
                         transition={{ duration: 0.9, ease: "easeOut" }}
                         variants={item}
-                        className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-96 ">
+                        className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl p-6  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-full max-w-sm ">
 
                         <h2 className="text-xl font-bold  dark:text-white text-yellow-200">
                             Jewellery
@@ -76,7 +76,7 @@ const Projects = () => {
 
                         transition={{ duration: 0.9, ease: "easeOut" }}
                         variants={item}
-                        className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-96 p-6">
+                        className="dark:bg-[#0b0f1a] border border-slate-800 rounded-2xl  bg-gradient-to-r from-[#3a0425] to-[#d387b6] dark:bg-gradient-to-r dark:from-[#314755] dark:to-[#26a0da] mt-7 w-full max-w-sm p-6">
 
                         <h2 className="text-xl font-bold  dark:text-white text-yellow-200">
                             Country

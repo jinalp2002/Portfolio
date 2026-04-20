@@ -13,11 +13,13 @@ const Hero = () => {
 
             className="min-h-screen dark:bg-[#001927] font-serif" >
             <div className="dark:bg-[#001927] pl-2">
+                <h1 className="text-3xl md:text-9xl sm:text-6xl font-serif bg-gradient-to-r  bg-clip-text text-transparent pt-4 font-bold  from-[#c04848] to-[#0b8793]
+dark:from-[#4b8032] dark:to-[#f9d423]">Jinal Patel</h1>
                 <motion.h1
                     initial={{ opacity: 0, y: 50 }}   // start state
                     animate={{ opacity: 1, y: 0 }}    // end state
                     transition={{ duration: 0.6, ease: "easeInOut" }}
-                    className="text-3xl md:text-6xl sm:text-4xl font-serif bg-gradient-to-r from-[#9d209a] to-[#0c1e73] bg-clip-text text-transparent pt-4 font-bold dark:from-[#ffe186] dark:to-[#80640e] ">Frontend Developer</motion.h1>
+                    className="text-xl md:text-4xl sm:text-2xl font-serif bg-gradient-to-r from-[#9d209a] to-[#0c1e73] bg-clip-text text-transparent font-bold dark:from-[#ffe186] dark:to-[#80640e] ">Frontend Developer</motion.h1>
                 <motion.h2
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
